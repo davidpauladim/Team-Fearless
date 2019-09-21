@@ -14,7 +14,7 @@ function validateData($data){
   $data = stripslashes($data);
   $data = strip_tags($data);
   $data = htmlspecialchars($data);
-  $data = mysqli_real_escape_string($db, $data);
+//   $data = mysqli_real_escape_string($db, $data);
   return $data;    
  }
 
